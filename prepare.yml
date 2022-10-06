@@ -1,3 +1,5 @@
 Prepare:
-  script: 
-    - Write-host "This is test"
+  tags:
+    - $RUNNER_TAG
+  script: |
+    Write-host "This is test"
