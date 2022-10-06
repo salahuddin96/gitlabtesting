@@ -1,6 +1,3 @@
 Prepare:
-  stage: Prepare
-  tags:
-    - $RUNNER_TAG
-  script: |
-    Write-host "This is test"
+  script: 
+    - Write-host "This is test"
